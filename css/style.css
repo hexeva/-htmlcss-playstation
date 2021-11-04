@@ -15,9 +15,22 @@ ul{
 
 /* COMMON */
 
+img{
+    width: 100%;
+    height: auto;
+}
+
 header{
     font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100px;
     
+}
+main{
+    margin-top: 100px;
 }
 
 body{
@@ -53,6 +66,44 @@ header ul li{
 /* END HEADER */
 
 /* MAIN */
+
+/* REturnal section */
+.jumbotron{
+    width: 100%;
+    background-image: url(../img/jumbo-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.returnal-banner{
+    width: 50%;
+    padding-top:80px;
+}
+
+@media screen and (min-width:768px) {
+
+    .returnal-banner{
+        width: 55%;
+        max-width: 390px;
+    }
+    
+}
+
+@media screen and (min-width:1400px) {
+
+    .returnal-banner{
+        width: 17%;
+    }
+    
+}
+
+
+
+
+/* end returnal section */
+
+
 /* END MAIN */
 
 /* FOOTER */
