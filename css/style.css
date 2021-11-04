@@ -1,0 +1,26 @@
+/* RESET */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON */
+
+header{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    
+}
+
+/* HEADER */
+/* END HEADER */
+
+/* MAIN */
+/* END MAIN */
+
+/* FOOTER */
+/* END FOOTER */
