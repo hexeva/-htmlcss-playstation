@@ -67,6 +67,10 @@ header ul li{
     text-transform: uppercase;
     text-align: right;
 }
+
+.header-bottom{
+    background-color: #ffffff;
+}
 /* END HEADER */
 
 /* MAIN */
@@ -85,30 +89,60 @@ header ul li{
     padding-top:80px;
 }
 
-@media screen and (min-width:768px) {
-
-    .returnal-banner{
-        width: 55%;
-        max-width: 390px;
-    }
-    
-}
-
-@media screen and (min-width:1400px) {
-
-    .returnal-banner{
-        width: 17%;
-    }
-    
-}
-
-
 
 
 /* end returnal section */
+
+/* Playstation 5 section */
+.play5_titles{
+    width: 100%;
+    text-align: center;
+
+    /* test */
+    background-color: burlywood;
+}
+
+
+
+
+
+
+/* end Playstation 5 section */
 
 
 /* END MAIN */
 
 /* FOOTER */
 /* END FOOTER */
+
+
+/* QUERIES */
+
+@media screen and (min-width:768px) {
+
+    .returnal-banner{
+        width: 55%;
+        max-width: 390px;
+    }
+
+    .text_box{
+        position: relative;
+        top: 100px;
+    }
+    
+
+}
+
+@media screen and (min-width:1200px) {
+
+    .returnal-banner{
+        width: 17%;
+    }
+
+
+    .text_box{
+        position: relative;
+        top: 205px;
+    }
+    
+}
