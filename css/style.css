@@ -220,16 +220,12 @@ my_wrapper{
 }
 
 .accessories_img_box{
-   
+    width: 100%;
     text-align: center;
-     padding: 20px; 
     filter: opacity(0.6); 
     
 }
 
-.accessories_img_box img{
-    padding: 30px;
-}
 
 .accessories_img_box i{
     font-size: 10px;
@@ -239,13 +235,13 @@ my_wrapper{
 .selected_img{
    
     text-align: center;
-    padding: 20px;
+    width: 100%;
     font-size: 15px;
     border-bottom: 2px solid blue;
 }
 
 .selected_img img{
-    padding: 20px;
+    
 }
 
 
@@ -254,10 +250,7 @@ my_wrapper{
     font-size: 15px;
 }
 
-.img_description_selected{
-    padding-top: 10px;
-    padding-bottom: 20px;
-}
+
 
 
 
@@ -274,6 +267,8 @@ my_wrapper{
 
 /* QUERIES */
 
+
+
 @media screen and (min-width:768px) {
 
     .returnal-banner{
@@ -284,6 +279,34 @@ my_wrapper{
     .text_box{
         position: relative;
         top: 100px;
+    }
+
+    .selected_img{
+        width: 80%;
+        margin: auto;
+    }
+
+    .img_description_selected{
+        padding-top: 0;
+        padding-bottom: 62px;
+    }
+
+    .img_description{
+        padding-top: 0;
+        font-size: 15px;
+    }
+
+    .selected_img img{
+        padding: 15px;
+    }
+
+    .accessories_img_box{
+        width: 80%;
+        margin: auto;
+    }
+
+    .accessories_img_box img{
+        padding: 20px;
     }
     
 
@@ -303,6 +326,21 @@ my_wrapper{
     .text_box{
         position: relative;
         top: 205px;
+    }
+
+    .selected_img{
+        width: 80%;
+        margin: auto;
+    }
+
+    .accessories_img_box{
+        width: 80%;
+        margin: auto;
+    }
+
+    .img_description_selected{
+        padding-top: 0;
+        padding-bottom: 26px;
     }
     
 }
