@@ -20,6 +20,10 @@ h2{
     
 }
 
+h5{
+    font-size: 20px;
+}
+
 img{
     width: 100%;
     height: auto;
@@ -52,6 +56,10 @@ my_wrapper{
 
 .white_out{
     color: black;
+}
+
+.white_out h5{
+    color: #727272;
 }
 
 .titles{
@@ -177,7 +185,7 @@ my_wrapper{
     margin-top: 30px;
 }
 
-.img_box {
+.jumbo_img_box {
     padding: 3px;
     border-radius: 20px;
     overflow: hidden;
@@ -188,7 +196,7 @@ my_wrapper{
     border: 2px solid blue;
 }
 
-.img_box img{
+.jumbo_img_box img{
     border-radius: 18px;
 }
 
@@ -202,11 +210,43 @@ my_wrapper{
 .play5_titles{
     width: 100%;
     text-align: center;
+    margin-top:60px;
+    margin-bottom: 60px;
 
-    /* test */
-    background-color: burlywood;
 }
 
+.text_box a{
+    margin: 20px 0;
+}
+
+.accessories_img_box{
+    background-color:aliceblue;
+    text-align: center;
+    padding: 25px;
+    filter: opacity(0.6); 
+    /* position: relative; */
+}
+
+.accessories_img_box i{
+    font-size: 10px;
+    /* position: absolute; */
+    /* top: 36px; */
+    /* right: 49px; */
+   
+}
+
+.selected_img{
+    background-color:aliceblue;
+    text-align: center;
+    padding: 25px 20px;
+    font-size: 15px;
+    border-bottom: 2px solid blue;
+}
+
+.img_description{
+    padding-top: 10px;
+    font-size: 15px;
+}
 
 
 
