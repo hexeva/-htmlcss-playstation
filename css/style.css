@@ -73,6 +73,30 @@ header ul li{
     text-align: right;
 }
 
+.play_logo{
+    width: 50px;
+    
+}
+
+.chevron_logo{
+    width: 10px;
+}
+
+.chevron_on:hover{
+    display: none;
+}
+
+.chevron_off{
+    display: none;
+}
+.chevron_off:hover{
+    display: block;
+}
+
+
+
+
+
 .header-bottom{
     background-color: #ffffff;
 }
