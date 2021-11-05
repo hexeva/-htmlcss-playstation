@@ -262,10 +262,21 @@ my_wrapper{
 .second_jumbo{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 
-   
 }
 
 /* end it takes 2 */
+
+/* Playstation 4 */
+.black_out{
+    background-color: #1f1f1f;
+    padding: 20px 0;
+}
+
+.play4_titles{
+    padding: 20px 0;
+}
+
+/* end Playstation 4 */
 
 
 /* END MAIN */
