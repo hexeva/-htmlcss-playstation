@@ -64,7 +64,14 @@ my_wrapper{
 
 .titles{
     margin-bottom: 30px;
-    font-size: 40px;
+    font-size: 38px;
+}
+
+.jumbotron{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;   
 }
 
 
@@ -158,16 +165,14 @@ my_wrapper{
 /* MAIN */
 
 /* REturnal section */
-.jumbotron{
-    width: 100%;
+
+
+.first_jumbo{
     background-image: url(../img/jumbo-bg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: center;
-     
+
 }
 
-.returnal-banner{
+.generic-banner{
     width: 58%;
     padding-top:220px;
     padding-bottom: 28px;
@@ -251,12 +256,16 @@ my_wrapper{
 }
 
 
-
-
-
-
-
 /* end Playstation 5 section */
+
+/* It takes 2 section */
+.second_jumbo{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+
+   
+}
+
+/* end it takes 2 */
 
 
 /* END MAIN */
@@ -271,7 +280,7 @@ my_wrapper{
 
 @media screen and (min-width:768px) {
 
-    .returnal-banner{
+    .generic-banner{
         width: 55%;
         max-width: 390px;
     }
@@ -314,7 +323,7 @@ my_wrapper{
 
 @media screen and (min-width:1200px) {
 
-    .returnal-banner{
+    .generic-banner{
         width: 21%;
     }
 
