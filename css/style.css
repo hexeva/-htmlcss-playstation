@@ -55,7 +55,8 @@ my_wrapper{
 }
 
 .titles{
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    font-size: 40px;
 }
 
 
@@ -144,13 +145,6 @@ my_wrapper{
     border-radius: 5px;
 }
 
-
-
-
-
-
-
-
 /* END HEADER */
 
 /* MAIN */
@@ -162,13 +156,21 @@ my_wrapper{
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
-    
-    
+     
 }
 
 .returnal-banner{
-    width: 50%;
-    padding-top:80px;
+    width: 58%;
+    padding-top:220px;
+    padding-bottom: 28px;
+}
+
+.jumbo_titles{
+    margin-bottom: 30px;
+}
+
+.jumbo_button{
+    padding-bottom: 50px;
 }
 
 
@@ -218,7 +220,11 @@ my_wrapper{
 @media screen and (min-width:1200px) {
 
     .returnal-banner{
-        width: 17%;
+        width: 21%;
+    }
+
+    .jumbo_titles{
+        width: 30%;
     }
 
 
