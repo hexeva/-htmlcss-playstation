@@ -15,6 +15,11 @@ ul{
 
 /* COMMON */
 
+h2{
+    font-size: 32px;
+    
+}
+
 img{
     width: 100%;
     height: auto;
@@ -81,6 +86,8 @@ header ul li{
     background-image: url(../img/jumbo-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position-x: center;
+    
     
 }
 
