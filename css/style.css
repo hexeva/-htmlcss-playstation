@@ -36,6 +36,7 @@ header{
     top: 0;
     left: 0;
     height: 100px;
+    z-index: 5;
     
     
 }
@@ -315,12 +316,10 @@ p{
     vertical-align: text-top
 }
 
-.card{
-    width: 100%;
-    
-}
+
 .my_card{
     border: none;
+    width: 100%;
 }
 
 .card-text{
@@ -331,6 +330,37 @@ p{
 
 /* end explore PS4 */
 
+/* Playstation plus */
+.grey_out{
+    background-color: #bebcbb;
+}
+
+.plus_img_box{
+    width: 65%;
+    /* padding-top: 90px; */
+}
+
+.plus_text_box{
+    padding: 20px 0;
+}
+
+.plus_text_box p{
+    color: black;
+}
+
+.plus_btn{
+    color: #2d64e6;
+    background-color: lightgray;
+    padding: 10px 15px;
+}
+
+.plus_btn:hover{
+    color:blue;
+    transform: scale(1.1);
+}
+
+/* end Playstation Plus */
+
 
 /* END MAIN */
 
@@ -339,6 +369,18 @@ p{
 
 
 /* QUERIES */
+
+@media screen and (min-width:350px) {
+
+    .plus_col_box{
+        padding: 45px 0;
+    }
+
+    .plus_img_box{
+        padding-top: 0;
+    }
+    
+}
 
 
 
@@ -381,6 +423,15 @@ p{
     .accessories_img_box img{
         padding: 20px;
     }
+
+    .plus_img_box{
+        width: 65%;
+        padding-top:10px;
+    }
+
+    .plus_col_box{
+        padding:0;
+    }
     
 
 }
@@ -414,6 +465,10 @@ p{
     .img_description_selected{
         padding-top: 0;
         padding-bottom: 26px;
+    }
+
+    .plus_img_box{
+        padding-top:90px;
     }
     
 }
