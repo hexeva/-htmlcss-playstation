@@ -16,7 +16,7 @@ ul{
 /* COMMON */
 
 h2{
-    font-size: 32px;
+    font-size: 33px;
     
 }
 
@@ -58,7 +58,8 @@ my_wrapper{
     color: black;
 }
 
-.white_out h5{
+.white_out h5,
+p{
     color: #727272;
 }
 
@@ -73,6 +74,14 @@ my_wrapper{
     background-size: cover;
     background-position-x: center;   
 }
+
+.generic-banner{
+    width: 58%;
+    padding-top:220px;
+    padding-bottom: 28px;
+}
+
+/* END COMMON */
 
 
 
@@ -172,11 +181,7 @@ my_wrapper{
 
 }
 
-.generic-banner{
-    width: 58%;
-    padding-top:220px;
-    padding-bottom: 28px;
-}
+
 
 .jumbo_titles{
     margin-bottom: 30px;
@@ -220,7 +225,7 @@ my_wrapper{
 
 }
 
-.text_box a{
+.ps5_text_box a{
     margin: 20px 0;
 }
 
@@ -296,8 +301,35 @@ my_wrapper{
 }
 
 
-
 /* end Playstation 4 */
+
+/* explore PS4 */
+
+.explore_text_box{
+    text-align: center;
+    padding: 45px 0;
+}
+
+.explore_text_box i{
+    font-size: 15px;
+    vertical-align: text-top
+}
+
+.card{
+    width: 100%;
+    
+}
+.my_card{
+    border: none;
+}
+
+.card-text{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+
+/* end explore PS4 */
 
 
 /* END MAIN */
@@ -317,7 +349,7 @@ my_wrapper{
         max-width: 390px;
     }
 
-    .text_box{
+    .ps5_text_box{
         position: relative;
         top: 100px;
     }
@@ -364,9 +396,9 @@ my_wrapper{
     }
 
 
-    .text_box{
+    .ps5_text_box{
         position: relative;
-        top: 205px;
+        top: 225px;
     }
 
     .selected_img{
