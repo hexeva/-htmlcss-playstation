@@ -20,6 +20,10 @@ h2{
     
 }
 
+h3{
+    font-size: 32px;
+}
+
 h5{
     font-size: 20px;
 }
@@ -81,6 +85,16 @@ p{
     padding-top:220px;
     padding-bottom: 28px;
 }
+
+.my_m_p_wrapper{
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+.my_m_p_col{
+    margin-bottom: 40px;
+}
+
 
 /* END COMMON */
 
@@ -389,17 +403,23 @@ p{
     padding-top: 45px;
 }
 
-.ps_store_row_wrapper{
-    margin-top: 70px;
-    margin-bottom: 40px;
-}
-
-.ps_store_col_box{
-    margin-bottom: 40px;
-}
 
 
 /* end ps store */
+
+/* social media */
+
+.media_title{
+    text-align: center;
+    margin: 60px 0;
+}
+
+.media_row_wrapper{
+    width: 100%;
+    margin: auto;
+}
+
+/* end social media */
 
 
 
@@ -479,6 +499,11 @@ p{
     .now_col_box{
         padding:0;
     }
+
+    .media_row_wrapper{
+        width: 80%;
+        margin: auto;
+    }
     
 
 }
@@ -517,6 +542,11 @@ p{
     .plus_img_box,
     .now_img_box{
         padding-top:90px;
+    }
+
+    .media_row_wrapper{
+        width: 50%;
+        margin: auto;
     }
     
 }
