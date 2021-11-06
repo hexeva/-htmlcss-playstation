@@ -330,17 +330,24 @@ p{
 
 /* end explore PS4 */
 
-/* Playstation plus */
+/* Playstation plus + Playstation now*/
 .grey_out{
     background-color: #bebcbb;
 }
 
-.plus_img_box{
-    width: 65%;
-    /* padding-top: 90px; */
+.blu_out{
+    background-color: #161c3b;
 }
 
-.plus_text_box{
+
+.plus_img_box,
+.now_img_box{
+    width: 65%;
+    
+}
+
+.plus_text_box,
+.now_text_box{
     padding: 20px 0;
 }
 
@@ -348,18 +355,32 @@ p{
     color: black;
 }
 
+.now_text_box p{
+    color: white;
+}
+
 .plus_btn{
     color: #2d64e6;
     background-color: lightgray;
-    padding: 10px 15px;
+    padding: 8px 15px;
 }
 
-.plus_btn:hover{
+
+
+.now_btn{
+    color: black;
+    background-color: white;
+    padding: 8px 15px;
+}
+
+.plus_btn:hover,
+.now_btn:hover{
     color:blue;
     transform: scale(1.1);
 }
 
-/* end Playstation Plus */
+
+/* end Playstation Plus+Playstation now */
 
 /* PS store  */
 
@@ -381,6 +402,9 @@ p{
 /* end ps store */
 
 
+
+
+
 /* END MAIN */
 
 /* FOOTER */
@@ -391,11 +415,13 @@ p{
 
 @media screen and (min-width:350px) {
 
-    .plus_col_box{
+    .plus_col_box,
+    .now_col_box{
         padding: 45px 0;
     }
 
-    .plus_img_box{
+    .plus_img_box,
+    .now_img_box{
         padding-top: 0;
     }
     
@@ -443,12 +469,14 @@ p{
         padding: 20px;
     }
 
-    .plus_img_box{
+    .plus_img_box,
+    .now_img_box{
         width: 65%;
         padding-top:10px;
     }
 
-    .plus_col_box{
+    .plus_col_box,
+    .now_col_box{
         padding:0;
     }
     
@@ -486,7 +514,8 @@ p{
         padding-bottom: 26px;
     }
 
-    .plus_img_box{
+    .plus_img_box,
+    .now_img_box{
         padding-top:90px;
     }
     
