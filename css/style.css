@@ -361,6 +361,25 @@ p{
 
 /* end Playstation Plus */
 
+/* PS store  */
+
+.ps_store_text_box{
+    text-align: center;
+    padding-top: 45px;
+}
+
+.ps_store_row_wrapper{
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+.ps_store_col_box{
+    margin-bottom: 40px;
+}
+
+
+/* end ps store */
+
 
 /* END MAIN */
 
