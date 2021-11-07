@@ -12,6 +12,11 @@ ul{
 
 }
 
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
 
 /* COMMON */
 
@@ -52,6 +57,11 @@ body{
     font-family: Arial, sans-serif;
     color: white;
 
+}
+
+footer{
+    background-color: #00439c;
+    padding: 80px 0;
 }
 
 my_wrapper{
@@ -403,6 +413,12 @@ p{
     padding-top: 45px;
 }
 
+.ps_store_col_box.my_m_p_col img:hover{
+
+    filter: opacity(0.8);
+
+}
+
 
 
 /* end ps store */
@@ -419,15 +435,83 @@ p{
     margin: auto;
 }
 
+
+.media_col_box.my_m_p_col img:hover{
+
+    transform: scale(1.1);
+
+}
+
 /* end social media */
-
-
-
 
 
 /* END MAIN */
 
+
+
 /* FOOTER */
+
+.footer_left_col_wrapper{
+    margin-bottom: 45px;
+}
+
+.footer_logo{
+    width: 100px;
+    margin-bottom: 45px;
+}
+
+.globe-logo{
+    width: 20px;
+}
+
+.country-region{
+    width: 100%;
+   
+}
+
+.globe-logo,
+.region-description{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.nested_col_wrapper{
+    margin-bottom: 15px;
+}
+
+.nested_col_wrapper ul li{
+    padding-left: 36px;
+    padding-bottom: 5px;
+}
+
+/* footer bottom */
+
+.sony-logo{
+    width: 130px;
+    margin-bottom: 15px;
+}
+
+.footer-info{
+    width:100%
+}
+
+.footer-info p{
+    color: white;
+}
+
+.footer-info a{
+    text-decoration: underline;
+}
+
+.footer-info a:hover{
+    color: mediumpurple;
+}
+
+/* end footer bottom */
+
+
+
+
 /* END FOOTER */
 
 
@@ -547,6 +631,10 @@ p{
     .media_row_wrapper{
         width: 50%;
         margin: auto;
+    }
+
+    .footer-info{
+        width: 50%;
     }
     
 }
