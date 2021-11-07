@@ -148,16 +148,21 @@ p{
     margin-right: 22px;
 }
 
-.chevron_on:hover{
+
+
+.chevron_off{
     display: none;
 }
 
-.chevron_off{
+.chevron_on:hover{
     display: none;
 }
 .chevron_off:hover{
     display: block;
 }
+
+
+
 
 .lens_logo{
     width: 25px;
@@ -189,7 +194,7 @@ p{
     height: 45px;
     text-align: center;
     line-height: 45px;
-    border: 1px solid grey;
+    border: 1px solid lightgrey;
     color: grey;
     border-radius: 5px;
 }
@@ -258,6 +263,7 @@ p{
     width: 100%;
     text-align: center;
     filter: opacity(0.6); 
+    height: 100%;
     
 }
 
@@ -265,6 +271,7 @@ p{
 .accessories_img_box i{
     font-size: 9px;
     vertical-align: text-top;
+    ;
     
 }
 
@@ -272,13 +279,18 @@ p{
    
     text-align: center;
     width: 100%;
-    font-size: 15px;
-    border-bottom: 2px solid blue;
+    height: 100%;
 }
 
-.selected_img img{
-    
+.selected_img::after{
+    display: block;
+    content: "";
+    width: 100%;
+    height: 2px ;
+    background-color: #0072ce;
 }
+
+
 
 
 .img_description{
@@ -552,7 +564,7 @@ p{
 
     .img_description_selected{
         padding-top: 0;
-        padding-bottom: 62px;
+         padding-bottom: 62px; 
     }
 
     .img_description{
@@ -620,7 +632,7 @@ p{
 
     .img_description_selected{
         padding-top: 0;
-        padding-bottom: 26px;
+         padding-bottom: 26px; 
     }
 
     .plus_img_box,
