@@ -668,7 +668,7 @@ p{
 
     .img_description_selected{
         padding-top: 0;
-         padding-bottom: 26px; 
+         padding-bottom: 32px; 
     }
 
     
@@ -706,5 +706,11 @@ p{
         position: relative;
         top: 225px;
     }
+
+    .img_description_selected{
+        padding-top: 0;
+         padding-bottom: 22px; 
+    }
+
     
 }
