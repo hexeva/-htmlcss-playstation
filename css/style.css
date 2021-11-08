@@ -92,9 +92,10 @@ p{
 
 .generic-banner{
     width: 58%;
-    padding-top:220px;
-    padding-bottom: 28px;
+   
 }
+
+
 
 .my_m_p_wrapper{
     margin-top: 70px;
@@ -128,6 +129,10 @@ p{
     background-color: white;
     height: 70px;
     line-height: 70px;
+}
+
+.header-bottom a{
+    font-size: 14px;
 }
 
 .sony{
@@ -218,6 +223,11 @@ p{
 .first_jumbo{
     background-image: url(../img/jumbo-bg.png);
 
+}
+
+.returnal_banner{
+    padding-top:220px;
+    padding-bottom: 28px;
 }
 
 
@@ -565,6 +575,10 @@ p{
         max-width: 390px;
     }
 
+    .it_takes_banner{
+        padding-top:60px;
+    }
+
     .ps5_text_box{
         position: relative;
         top: 100px;
@@ -621,6 +635,15 @@ p{
 
     .generic-banner{
         width: 21%;
+        
+    }
+
+    .it_takes_banner{
+        padding-top:70px;
+    }
+
+    .returnal_banner{
+        padding-top: 220px;
     }
 
     .jumbo_titles{
@@ -630,7 +653,7 @@ p{
 
     .ps5_text_box{
         position: relative;
-        top: 225px;
+        top: 190px;
     }
 
     .selected_img{
@@ -648,9 +671,13 @@ p{
          padding-bottom: 26px; 
     }
 
-    .plus_img_box,
+    
+
+    .plus_img_box{
+        padding-top:40px;
+    }
     .now_img_box{
-        padding-top:90px;
+        padding-top: 60px;
     }
 
     .media_row_wrapper{
@@ -660,6 +687,24 @@ p{
 
     .footer-info{
         width: 50%;
+    }
+    
+}
+
+@media screen and (min-width:1200px) {
+
+    .header-bottom a{
+        font-size: 16px;
+    }
+
+    .plus_img_box,
+    .now_img_box{
+        padding-top: 90px;
+    }
+
+    .ps5_text_box{
+        position: relative;
+        top: 225px;
     }
     
 }
