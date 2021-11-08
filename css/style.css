@@ -241,11 +241,15 @@ p{
     margin-bottom: 15px;
 }
 
-.rounded_img{
-    border: 2px solid blue;
+.jumbo_img_box:hover{
+    border: 2px solid #0072ce;
+   
+
 }
 
+
 .jumbo_img_box img{
+   
     border-radius: 18px;
 }
 
@@ -613,7 +617,7 @@ p{
 
 }
 
-@media screen and (min-width:1200px) {
+@media screen and (min-width:992px) {
 
     .generic-banner{
         width: 21%;
