@@ -154,10 +154,15 @@ p{
     display: none;
 }
 
-.chevron_on:hover{
+.chevron_logo:hover{
+    transform: scale(1.4);
+}
+
+.chevron_logo:hover .chevron_on{
     display: none;
 }
-.chevron_off:hover{
+
+.chevron_logo:hover .chevron_off{
     display: block;
 }
 
@@ -197,6 +202,10 @@ p{
     border: 1px solid lightgrey;
     color: grey;
     border-radius: 5px;
+}
+
+.burger:hover{
+    transform: scale(1.2);
 }
 
 /* END HEADER */
@@ -271,7 +280,7 @@ p{
 .accessories_img_box i{
     font-size: 9px;
     vertical-align: text-top;
-    ;
+    
     
 }
 
